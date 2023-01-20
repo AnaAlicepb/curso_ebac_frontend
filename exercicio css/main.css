@@ -1,12 +1,26 @@
-#Esportes h2{
-    color: brown;
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
 }
-#Economia h2{
-    color: darkgoldenrod;
+
+header li {
+    display:  inline;
 }
-#Entretenimento h2{
-    color: darkgreen;
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
 }
-#Tecnologia h2{
-    color: blue;font
+
+.articles {
+    display: flex;
+
+}
+.articles article img {
+    height: 190px;
+}
+
+.articles article {
+    width: 45%;
 }
