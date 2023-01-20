@@ -6,19 +6,23 @@
 
 body>header {
     background-color: #4B0082;
-    padding: 16px;
+    padding: 16px 0;
     color: #f5f5fa;
+}
+
+head h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    
 }
 
 header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between
-
+    justify-content: space-between;
 }
 
 header li {
-    display: inline;
+   display: inline;
 
 }
 
